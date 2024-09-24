@@ -6,13 +6,12 @@ This repository contains a collection of interview questions and resources relat
 
 ## Files
 
-- [LICENSE](LICENSE)
+- [laravel.md](laravel.md) - Laravel interview questions
+- [sql.md](sql.md) - SQL interview questions
 - [design-patterns.md](design-patterns.md) - Design patterns interview questions
+- [solid-principles.md](solid-principles.md) - SOLID principles interview questions
 - [design-principles.md](design-principles.md) - Design principles interview questions
 - [dsa-unique-datatypes.md](dsa-unique-datatypes.md) - Data Structures and Algorithms interview questions
-- [laravel.md](laravel.md) - Laravel interview questions
-- [solid-principles.md](solid-principles.md) - SOLID principles interview questions
-- [sql.md](sql.md) - SQL interview questions
 - [system-design-theory.md](system-design-theory.md) - System design theory resources
 
 ## Contributing
