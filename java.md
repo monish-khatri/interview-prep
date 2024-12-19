@@ -131,66 +131,108 @@
 35. **What is AOP in Spring?**
     - Aspect-Oriented Programming, e.g., logging, security.
 
+36. **What are the advantages of Spring Boot?**
+    - Simplifies configuration, embedded servers, auto-configuration, production-ready features.
+
+37. **What is the purpose of `@SpringBootApplication`?**
+    - Combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`.
+
+38. **What is the difference between `@RestController` and `@Controller`?**
+    - `@RestController` returns JSON/XML directly; `@Controller` returns a view.
+
+39. **How does Spring Boot handle dependency management?**
+    - Uses the Spring Boot Starter dependencies.
+
+40. **What is Spring Data JPA?**
+    - Simplifies JPA implementation with repository interfaces.
+
 ---
 
 ### **JPA and Hibernate**
 
-36. **What is Hibernate?**
+41. **What is Hibernate?**
     - An ORM tool for database interactions.
 
-37. **What is the difference between `save()` and `persist()` in Hibernate?**
+42. **What is the difference between `save()` and `persist()` in Hibernate?**
     - `save()`: Returns the generated identifier.
     - `persist()`: Does not return anything.
 
-38. **What are Hibernate Annotations?**
+43. **What are Hibernate Annotations?**
     - Used to define mappings, e.g., `@Entity`, `@Table`, `@Id`.
 
-39. **What is Lazy and Eager Fetching?**
+44. **What is Lazy and Eager Fetching?**
     - Lazy: Fetches data when accessed.
     - Eager: Fetches data immediately.
 
-40. **What is the second-level cache in Hibernate?**
+45. **What is the second-level cache in Hibernate?**
     - A session-independent cache.
+
+46. **What is the difference between `get()` and `load()`?**
+    - `get()`: Fetches data immediately.
+    - `load()`: Returns a proxy and fetches data lazily.
+
+47. **What are common Hibernate exceptions?**
+    - `LazyInitializationException`, `ConstraintViolationException`, `OptimisticLockException`.
 
 ---
 
 ### **Microservices**
 
-41. **What are microservices?**
+48. **What are microservices?**
     - Architectural style that structures applications as small, independent services.
 
-42. **What is service discovery?**
+49. **What is service discovery?**
     - A mechanism to locate services dynamically (e.g., Eureka).
 
-43. **What are the key features of REST?**
+50. **What are the key features of REST?**
     - Stateless, client-server, cacheable, layered system.
 
-44. **What is the difference between Monolithic and Microservices architectures?**
+51. **What is the difference between Monolithic and Microservices architectures?**
     - Monolithic: Single application. Microservices: Independent, loosely coupled services.
 
-45. **What is the role of API Gateway?**
+52. **What is the role of API Gateway?**
     - Manages requests, routing, and security in microservices.
+
+53. **What is Circuit Breaker in microservices?**
+    - A design pattern to handle service failures gracefully.
+
+54. **What are some tools for microservices orchestration?**
+    - Kubernetes, Docker Swarm.
+
+55. **What is distributed tracing?**
+    - Tracks requests across microservices (e.g., using Zipkin, Jaeger).
 
 ---
 
 ### **Advanced Java**
 
-46. **What is the difference between `Servlet` and `RESTful Web Services`?**
+56. **What is the difference between `Servlet` and `RESTful Web Services`?**
     - Servlets handle HTTP requests; RESTful services follow REST principles.
 
-47. **What is Java Stream API?**
+57. **What is Java Stream API?**
     - Provides functional-style operations on collections and streams.
 
-48. **What is a Lambda Expression?**
+58. **What is a Lambda Expression?**
     - A concise way to represent anonymous functions.
 
-49. **What is the purpose of `Optional` in Java?**
+59. **What is the purpose of `Optional` in Java?**
     - Handles null values more gracefully.
 
-50. **What are functional interfaces in Java?**
+60. **What are functional interfaces in Java?**
     - Interfaces with a single abstract method, e.g., `Runnable`, `Callable`, `Function`.
 
----
+61. **What is the Executor framework in Java?**
+    - A framework for managing and controlling thread execution.
 
-Would you like detailed code examples or further explanations for any of these questions?
+62. **What is the difference between `Callable` and `Runnable`?**
+    - `Callable` can return a value and throw exceptions; `Runnable` cannot.
+
+63. **What are CompletableFutures in Java?**
+    - Asynchronous programming constructs that handle non-blocking operations.
+
+64. **What is the use of `java.util.concurrent` package?**
+    - Provides utilities for concurrent programming, e.g., `ExecutorService`, `Locks`.
+
+65. **What is the purpose of `Reflection` in Java?**
+    - Allows runtime inspection and modification of classes, methods, and fields.
 
